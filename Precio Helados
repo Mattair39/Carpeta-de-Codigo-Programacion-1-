@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int(numerohelados);
+float(costototal);
+int(clientefrec);
+float(precioapagar);
+
+int main()
+{
+    printf("Bienvenido, el costo por helado es de $2 \n");
+    printf("Ingrese el numero 1 si es cliente frecuente, de lo contrario digite 0:\n");
+    scanf("%d",&clientefrec);
+    printf("Ingrese el numero de helados que desea comprar: \n");
+    scanf("%d",&numerohelados);
+    
+    if (clientefrec == 1) {
+        costototal=0.95*(2*numerohelados);
+    }else{
+        costototal=(2*numerohelados);
+    }
+    
+    if (numerohelados<5) {
+        precioapagar=costototal;
+        printf("El costo total de los helados es: %f",precioapagar);
+        }else{
+            if ((numerohelados>5) && (numerohelados<=8)){
+                precioapagar=0.94*costototal;
+                printf("El costo total de los helados es: %f", precioapagar);
+            }else{
+                if ((numerohelados>8)&&(numerohelados<=12)){
+                    precioapagar=0.92*costototal;
+                    printf("El costo total de los helados es: %f", precioapagar);
+                }else{
+                    if ((numerohelados>12))
+                    precioapagar=0.90*costototal;
+                    printf("El costo total de los helados es: %f", precioapagar);
+                }
+            
+            }
+        }
+}
