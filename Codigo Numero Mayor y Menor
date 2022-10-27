@@ -1,0 +1,79 @@
+#include <conio.h>
+#include <stdio.h>
+int(n1);
+int(n2);
+int(n3);
+int(n4);
+int(n5);
+int(n6);
+
+int main()
+{
+    printf("Ingrese el primer numero: \n");
+    scanf("%d",&n1);
+    printf("Ingrese el segundo numero: \n");
+    scanf("%d",&n2);
+    printf("Ingrese el tercer numero: \n");
+    scanf("%d",&n3);
+    printf("Ingrese el cuarto numero: \n");
+    scanf("%d",&n4);
+    printf("Ingrese el quinto numero: \n");
+    scanf("%d",&n5);
+    printf("Ingrese el sexto numero: \n");
+    scanf("%d",&n6);
+    
+    if ((n1>=n2)&&(n1>=n3)&&(n1>=n4)&&(n1>=n5)&&(n1>=n6)){
+        printf("El numero mayor es: %d \n", n1);
+    }else{
+        if ((n2>=n1)&&(n2>=n3)&&(n2>=n4)&&(n2>=n5)&&(n2>=n6)){
+            printf("El numero mayor es: %d \n", n2);
+        }else{
+            if ((n3>=n1)&&(n3>=n2)&&(n3>=n4)&&(n3>=n5)&&(n3>=n6)){
+                printf("El numero mayor es: %d \n", n3);
+            }else{ 
+                if ((n4>=n1)&&(n4>=n2)&&(n4>=n3)&&(n4>=n5)&&(n4>=n6)){
+                    printf("El numero mayor: %d \n", n4);
+                }else{
+                    if ((n5>=n1)&&(n5>=n2)&&(n5>=n3)&&(n5>=n4)&&(n5>=n6)){
+                    
+                    printf("El numero mayor: %d \n", n5);
+                }else{
+                    if ((n6>=n1)&&(n6>=n2)&&(n6>=n3)&&(n6>=n4)&&(n6>=n5)){
+                        printf("El numero mayor: %d \n", n6);
+                    }
+                }
+            }
+        }
+    }
+    
+    if ((n1<=n2)&&(n1<=n3)&&(n1<=n4)&&(n1<=n5)&&(n1<=n6)){
+        printf("El numero menor es: %d",n1);
+    }else{
+        if((n2<=n1)&&(n2<=n3)&&(n2<=n4)&&(n2<=n5)&&(n2<=n6)){
+            printf("El numer menor es: %d",n2);
+        }else{
+            if ((n3<=n1)&&(n3<=n2)&&(n3<=n4)&&(n3<=n5)&&(n3<=n6)){
+                printf("El numero menor es: %d",n3);
+            }else{
+                if ((n4<=n1)&&(n4<=n2)&&(n4<=n3)&&(n4<=n5)&&(n4<=n6)){
+                    printf("El numero menor es: %d",n4);
+                }else{
+                    if ((n5<=n1)&&(n5<=n2)&&(n5<=n3)&&(n5<=n4)&&(n5<=n6)){
+                        printf("El numero menor es: %d", n5);
+                    }else{
+                        if ((n6<=n1)&&(n6<=n2)&&(n6<=n3)&&(n6<=n4)&&(n6<=n5)){
+                            printf("El numero menor es: %d", n6);
+                        }
+                    }
+                }
+            }
+        }
+    }
+                
+    }
+}
+
+        
+    
+
+    
